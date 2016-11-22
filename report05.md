@@ -18,7 +18,7 @@
 bin ディレクトリ内にsimple_router ファイルを作成、その中にルーターに対して種々の操作を実行するコマンドのコードを記述した。これらのコマンドは、第3回パッチパネルで作成した patch_panel コマンドと同じ仕組みでターミナルから実行されて動作する。以下にそれらのコマンドの名前と操作内容を列挙する。
 
 <dl>
-	<dt>route [dpid]<\dt>
+	<dt>route [dpid] <\dt>
 	<dd>dpid の ID を持つルーターのルーティングテーブルを表示する。 
 	<dt>route_add [dpid] [destination] [netmask_length] [next_hop]
 	<dd>dpid の ID を持つルーターのルーティングテーブルにエントリを追加する。そのエントリでは、宛先アドレスに destination 、サブネットマスクに netmask_length 、次のホップ先アドレスに next_hop を指定する。
