@@ -19,14 +19,14 @@ bin ディレクトリ内にsimple_router ファイルを作成、その中に�
 
 <dl>
 	<dt>route [dpid]<\dt>
-	<dd>dpid の ID を持つルーターのルーティングテーブルを表示する。 <\dd>
-	<dt>route_add [dpid] [destination] [netmask_length] [next_hop]<\dt>
-	<dd>dpid の ID を持つルーターのルーティングテーブルにエントリを追加する。そのエントリでは、宛先アドレスに destination 、サブネットマスクに netmask_length 、次のホップ先アドレスに next_hop を指定する。<\dd>
-	<dt>route_delete [dpid] [destination]<\dt>
-	<dd>dpid の ID を持つルーターのルーティングテーブルから、宛先アドレスが destination であるエントリを削除する。<\dd>
-	<dt>show_interface [dpid]<\dt>
-	<dd>dpid の ID を持つルーターのインターフェイスの一覧を表示する <\dd>
-<\dl>
+	<dd>dpid の ID を持つルーターのルーティングテーブルを表示する。 
+	<dt>route_add [dpid] [destination] [netmask_length] [next_hop]
+	<dd>dpid の ID を持つルーターのルーティングテーブルにエントリを追加する。そのエントリでは、宛先アドレスに destination 、サブネットマスクに netmask_length 、次のホップ先アドレスに next_hop を指定する。
+	<dt>route_delete [dpid] [destination]
+	<dd>dpid の ID を持つルーターのルーティングテーブルから、宛先アドレスが destination であるエントリを削除する。
+	<dt>show_interface [dpid]
+	<dd>dpid の ID を持つルーターのインターフェイスの一覧を表示する 
+
 
 続いて、各コマンドについてその動作の概要と実装について説明する。
 
